@@ -36,7 +36,10 @@ vmstat, slabtop, free
 sar, dstat, /proc
 
 need modified:perf  systemtap
-no support:ltrace  sysdig iptraf ktap ebpf dtrace lttng nicstat snmpget 1ldptool tiptop sar dstat rdmsr(CPU)
+no support:nicstat snmpget 1ldptool tiptop sar dstat rdmsr(CPU)
+
+CPU/scheduler: nice, renice, taskset, ulimit, chcpu
+– Storage I/O: tune2fs, ionice, hdparm, blockdev, … 
 
 
 
