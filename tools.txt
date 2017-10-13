@@ -1,0 +1,89 @@
+**OS
+*System Libraries
+ltrace, perf
+*System Call Interface
+strace, sysdig
+*Sockets
+ss, netstat
+*TCP/UDP
+netstat, iptraf
+*IP
+netstat, iptraf
+*Ethernet
+netstat, iptraf, tcpdump
+*Block Device Interface、I/O Controller、Disk
+pidstat, iostat, iotop, blktrace
+*Linux Kernel
+perf, ftrace, stap, ktap,ebpf, dtrace, lttng
+*Scheduler
+perf, mpstat, top, ps
+*Virtual Memory
+top, ps, pidstat, vmstat, slabtop, free
+*I/O Bus
+pref, tiptop
+*Network Controller
+nicstat, netstat, ip
+*Port
+iptraf, nicstat, netstat, ip, ethtool, snmpget 1ldptool
+**Hardware
+*CPU
+perf, mpstat, top, ps, pidstat
+*Memory Bus (CPU - DRAM)
+perf, tiptop
+*DRAM
+vmstat, slabtop, free
+*Various
+sar, dstat, /proc
+
+need modified:perf  systemtap
+no support:ltrace  sysdig iptraf ktap ebpf dtrace lttng nicstat snmpget 1ldptool tiptop sar dstat rdmsr(CPU)
+
+
+
+
+
+
+
+ Your swiss army knife for the complex cases
+ – Pidstat – per process statistics
+ – Slabtop – kernel memory pool consumption
+ – Lsof – check file flags of open files
+ – Blktrace – low level disk I/O analysis
+ – Hyptop – cross guest cpu consumption monitor
+ – Iptraf - network traffic monitor
+ – Dstat – very configurable live system overview
+ – Irqstats – check irq amount and cpu distribution
+ – Smem – per process/per mapping memory overview
+ – Jinsight – Java method call stack analysis
+ – Htop – top on steroids
+ – Strace – system call statistics
+ – Ltrace – library call statistics
+ – Kernel tracepoints – get in-depth timing inside the kernel
+ – Vmstat – virtual memory statistics
+ – Sysstat – full system overview
+ – Iostat – I/O related statistics
+ – Dasdstat – disk statistics
+ – scsi statistics – disk statistics
+ – Perf – hw counters, tracepoint based evaluations, profiling to find hotspots
+ – Valgrind – in depth memory/cache analysis and leak detection
+ – Java Health Center – high level java overview and monitoring
+ – Java Garbage Collection and Memory visualizer – in depth gc analysis
+ – Netstat – network statistics and overview
+ – Socket Statistics – extended socket statistics
+ – top / ps – process overview
+ – Icastats / lszcrypt – check usage of crypto hw support
+ – Lsluns / multipath – check multipath setup
+ – Lsqeth – check hw checksumming and buffer count
+ – Ethtool – check offloading functions
+ – Collectl – full system monitoring
+ – Ftrace – kernel function tracing
+ – Lttng – complex latency tracing infrastructure
+ – Ziomon – Analyze FCP setup and I/O
+ – Systemtap – another kernel tracing infrastructure
+ – Wireshark / Tcpdump – analyze network traffic in depth
+ – Iotop – order processes by disk I/O
+ – Iftop - per connection traffic overview
+ … ever growing
+
+
+ lsof
