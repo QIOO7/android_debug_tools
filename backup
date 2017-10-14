@@ -5,5 +5,7 @@ also help us to system/program internal.
 Backup for learning:
 https://www.hi-linux.com/posts/49433.html
 
-android support iotop
+android support iotop:
 # CONFIG_TASKSTATS is not set
+
+trace-cmd,perf not support plugins,because can't support linux genaral *.so.
